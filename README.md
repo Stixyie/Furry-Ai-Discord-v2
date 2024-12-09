@@ -1,64 +1,86 @@
-🧠 **Gelişmiş Yapay Zeka Sohbet Botu**  
-🚀 **Proje Genel Bakış**  
-Groq Memory Manager, yapay zekâ bağlamsal belleği geliştirmek ve optimize etmek için tasarlanmış yenilikçi bir araçtır. İnternet bağlantısını kullanarak webde arama yapma özelliği ile zenginleştirilen bu sistem, Stixyie tarafından geliştirilmiştir ve kalıcı, bölümlenmiş, akıllı bellek yönetimi için benzersiz bir çözüm sunar.  
+# 🤖 Gelişmiş AI Discord Sohbet Botu 
 
-✨ **Temel Özellikler**  
-- **Akıllı Bellek Bölümlendirme**: Büyük bellek dosyalarını dinamik olarak yönetilebilir parçalara böler.  
-- **Kalıcı Depolama**: Her kullanıcı için benzersiz zaman damgalarıyla bellek dosyalarını saklar.  
-- **Bağlamsal Etkileşim**: Bellek bağlamını Groq API ile sorunsuz bir şekilde entegre eder.  
-- **Uyarlanabilir Kayıt Tutma**: Bellek işlemleri için kapsamlı kayıt yönetimi.  
-- **Güvenli Ortam Yönetimi**: API anahtarlarını güvenle saklar.  
-- **Web Arama Entegrasyonu**: İnternet bağlantısını kullanarak güncel bilgilere erişim sağlar.  
+## 🌟 Genel Bakış
+Keskin teknolojili yapay zeka ile desteklenen, akıllı ve bağlamsal farkındalığı yüksek bir Discord sohbet botu. Kapsamlı, zeki ve uyarlanabilir konuşma deneyimleri sağlamak için tasarlanmıştır.
 
-🔧 **Teknik Özellikler**  
-**Bellek Kalıcılığı ve İşlemleri**  
-- Bellek parçalarını kaydedebilir ve çağırabilirim:  
-  ```python  
-  memory_manager.save_memory_file("Detaylı konuşma bağlamı", "kullanıcı_id")  
-  response = memory_manager.transmit_memory_to_groq("kullanıcı_id", "Önceki konuşmamıza devam edelim")  
-  ```  
+## 🚀 Temel Özellikler
 
-**Akıllı Bölümlendirme**  
-- Büyük bellek dosyalarını 4096 karakterlik parçalara böler, bağlamı korur.  
+### 1. Gelişmiş AI Etkileşimi
+- Groq'un `llama-3.3-70b-versatile` dil modelini kullanır
+- Bağlamsal farkındalığa sahip, zeki yanıtlar üretir
+- Uyarlanabilir konuşma yönetimi
 
-**Web Arama Entegrasyonu**  
-- İnternet bağlantısını kullanarak bilgi toplar ve bağlama uygun cevaplar sunar:  
-  ```python  
-  web_search_results = memory_manager.search_web("aranacak konu")  
-  ```  
+### 2. Web Arama Entegrasyonu
+- Gerçek zamanlı web arama yetenekleri
+- 300'e kadar arama sonucu getirme
+- Kapsamlı sonuç biçimlendirmesi
+- Anlık bilgi edinme
 
-🌟 **Beni Özel Yapan Nedir?**  
-- **Bilişsel Süreklilik**: Bağlamı etkileşimler arasında korur.  
-- **Ölçeklenebilir Mimari**: Çoklu kullanıcı ve büyük bellek dosyalarını destekler.  
-- **Gizlilik Odaklı**: Yerel depolama ve güvenli veri aktarımı sağlar.  
-- **Web Tabanlı Zekâ**: Anlık web aramaları ile dinamik bilgi sağlar.  
+### 3. Hafıza Yönetim Sistemi
+- Konuşmalar arası kalıcı hafıza
+- Parçalanmış hafıza depolama
+- Bağlam koruması
+- Otomatik hafıza temizleme
+- Yeniden başlatma ve kurtarma mekanizmaları
 
-🔬 **Teknik Yeteneklerim**  
-- **Dil**: Python  
-- **AI Entegrasyonu**: Groq API  
-- **Web Arama**: İnternet bağlantısıyla dinamik sorgulama  
-- **Kütüphaneler**:  
-  - `groq`: AI etkileşimi  
-  - `python-dotenv`: Ortam değişkeni yönetimi  
-  - `requests`: Web sorguları  
-  - `logging`: İşlem izleme  
+### 4. Gelişmiş Yanıt İşleme
+- Yanıt uzunluğu sınırlandırması (2000 karakter)
+- Dengeli yaratıcılık (sıcaklık: 0.7)
+- Odaklanmış yanıt üretimi
+- Hata yönetimi ve zarif düşüş
 
-🚀 **Başlangıç**  
-1. Depoyu klonlayın.  
-2. Gerekli bağımlılıkları yükleyin:  
-   ```bash  
-   pip install -r requirements.txt  
-   ```  
-3. Groq API anahtarınızı ve web sorguları için gerekli ayarları `.env` dosyasına ekleyin:  
-   ```env  
-   GROQ_API_KEY=your_api_key_here  
-   ```  
+### 5. Güvenlik ve Yapılandırma
+- Ortam değişkeni yönetimi
+- Güvenli API anahtar işleme
+- Yapılandırılabilir DNS sunucuları
+- Günlük tutma ve izleme
 
-🤝 **Katkı Sağlama**  
-Sorunları bildirip, pull request gönderebilir veya projeyi forklayabilirsiniz. Katkılarınız her zaman memnuniyetle karşılanır!  
+## 🛠 Teknolojiler
+- Python 3.8+
+- Discord.py
+- Groq API
+- Asenkron programlama
+- Web arama entegrasyonu
 
-📜 **Lisans**  
-GPL-3.0 lisansı.  
+## 📦 Bağımlılıklar
+- discord.py
+- aiohttp
+- python-dotenv
+- groq
+- logging
 
-👨‍💻 **Hakkında**  
-Stixyie, yapay zekâ teknolojisini ileriye taşımaya tutkuyla bağlı yenilikçi bir geliştiricidir. Diğer projeleri GitHub'da keşfedin!  
+## 🔧 Yapılandırma
+1. Bir `.env` dosyası oluşturun:
+   ```
+   DISCORD_BOT_TOKEN=discord_bot_token_bilginiz
+   GROQ_API_KEY=groq_api_anahtar_bilginiz
+   ```
+
+2. Bağımlılıkları yükleyin:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## 🚀 Botu Çalıştırma
+```bash
+python main.py
+```
+
+## 🔒 Güvenlik Notları
+- `.env` dosyanızı asla paylaşmayın
+- API anahtarlarınızı gizli tutun
+- Kimlik bilgilerinizi düzenli olarak değiştirin
+
+## 🤝 Katkıda Bulunma
+1. Depoyu çatallayın (fork)
+2. Özellik dalı oluşturun
+3. Değişikliklerinizi kaydedin
+4. Dalı gönderin
+5. Birleştirme isteği (Pull Request) oluşturun
+
+## 📝 Lisans
+[GPL-3.0 lisansı]
+
+---
+
+**Uyarı**: Bu bot deneysel bir yapay zeka projesidir ve sınırlamaları olabilir. Her zaman sorumlu bir şekilde kullanın.
