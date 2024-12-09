@@ -2,7 +2,7 @@
 
 ## 🚀 Project Overview
 
-The Groq Memory Manager is a cutting-edge AI memory management chat bot system that transforms how artificial intelligence maintains and leverages contextual memory. Developed by [Stixyie](https://github.com/stixyie), this innovative toolkit provides a robust solution for persistent, segmented, and intelligent memory handling.
+The Groq Memory Manager is a cutting-edge AI memory management chatbot system that transforms how artificial intelligence maintains and leverages contextual memory. Developed by [Stixyie](https://github.com/stixyie), this innovative toolkit provides a robust solution for persistent, segmented, and intelligent memory handling.
 
 ## ✨ Key Features
 
